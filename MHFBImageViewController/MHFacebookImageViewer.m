@@ -527,6 +527,7 @@ static const CGFloat kMinImageScale = 1.0f;
     _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     _tableView.backgroundColor = [UIColor clearColor];
     _tableView.delaysContentTouches = YES;
+    _tableView.scrollEnabled = NO;
     [_tableView setShowsVerticalScrollIndicator:NO];
     [_tableView setContentOffset:CGPointMake(0, _initialIndex * windowBounds.size.width)];
 
